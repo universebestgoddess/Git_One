@@ -1,9 +1,0 @@
-# 줄세우기
-
-n = int(input())
-a = map(int, input().split())
-b = []
-
-for i, k in enumerate(a, start=1):
-    b.insert(k, i)
-print(*b[::-1])
