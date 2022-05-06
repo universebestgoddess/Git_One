@@ -51,7 +51,6 @@
 
 ## 파일 및 폴더 구조
 ### 백준
-+ Baekjoon/suyeon/폴더명/문제번호_문제명.py
-+ Bekjoon/eugene/폴더명/문제번호_문제명.py
-+ Baekjoon/jiwoo/폴더명/문제번호_문제명.py
++ Baekjoon//폴더명/문제번호_문제명.py
+
 
