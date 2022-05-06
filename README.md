@@ -44,7 +44,6 @@
 
 ### Commit Message
 + [Programmers-문제번호] 문제명
-
 + [Baekjoon-문제번호] 문제명
 
 ## 파일 및 폴더 구조
