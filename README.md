@@ -1,6 +1,6 @@
 
 ##### 2022-Algorithm-coding-Study
----
+
 > 코딩 테스트 준비를 위한 스터디입니다.
 
 + 기간: 2022년 5월~
@@ -38,12 +38,12 @@
 
 
 #### PR 규칙 및 Commit Message 규칙
----
+
 ## Pull Request
 + [Programmers-폴더명] 이름
 + [Baekjoon-폴더명] 이름
 
----
+
 ## Commit Message
 + [Programmers-문제번호] 문제명
 
