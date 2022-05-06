@@ -39,18 +39,18 @@
 
 # PR 규칙 및 Commit Message 규칙
 
-## Pull Request
+### Pull Request
 + [Programmers-폴더명] 이름
 + [Baekjoon-폴더명] 이름
 
 
-## Commit Message
+### Commit Message
 + [Programmers-문제번호] 문제명
 
 + [Baekjoon-문제번호] 문제명
 
-# 파일 및 폴더 구조
-## 백준
+## 파일 및 폴더 구조
+### 백준
 + Baekjoon/suyeon/폴더명/문제번호_문제명.py
 + Bekjoon/eugene/폴더명/문제번호_문제명.py
 + Baekjoon/jiwoo/폴더명/문제번호_문제명.py
