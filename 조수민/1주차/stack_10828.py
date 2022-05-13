@@ -7,7 +7,7 @@ N = int(sys.stdin.readline())
 stack = []
 
 for _ in range(N):
-    word = sys.stdin.readline().split
+    word = sys.stdin.readlines().split
     order = word[0]
 
     if order == 'push':
