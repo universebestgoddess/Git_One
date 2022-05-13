@@ -16,7 +16,7 @@ for _ in range(int(stdin.readline())):
         else:
             print(-1)
 
-    elif arr[0] == 'size':
+    elif arr[0] ==  'size':
         print(len(qu))
 
     elif arr[0] == 'empty':
