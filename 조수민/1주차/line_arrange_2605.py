@@ -1,7 +1,7 @@
-# Week 1_No.2605 : line arrange
+# Week 1_No.2605 : line arrange 
 
 stu_num = int(input())
-num_pick = list(map(int, input().split(" ")))
+num_pick = list(map(int, input(). split(" ")))
 
 result = []
 
