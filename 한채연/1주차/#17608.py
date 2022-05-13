@@ -1,8 +1,9 @@
-N = int(input())
+import sys
+N = int(sys.stdin.readline().rstrip())
 
 height=[]
 for _ in range(N):
-    height.append(int(input()))
+    height.append(int(sys.stdin.readline().rstrip()))
 
 result = 1  # 보이는 갯수(오른쪽은 무조건 보임)
 max_height = height[-1]
