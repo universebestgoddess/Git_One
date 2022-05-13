@@ -5,7 +5,7 @@ qu = []
 
 for _ in range(int(stdin.readline())):
 
-    arr = stdin.readline().split()
+    arr = stdin.readlines().split()
 
     if arr[0] == 'push':
         qu.append(arr[1])
