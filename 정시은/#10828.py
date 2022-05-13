@@ -5,7 +5,7 @@ stack=[]
 
 for _ in range(a):
     sen= sys.stdin.readline().split() #입력받은걸 split
-    orders= sen[0] #push,pop,empty,..
+    orders= sen[0] #명령어 orders
 
     #명령어가 push라면
     if orders == "push":
