@@ -3,7 +3,7 @@ x = int(sys.stdin.readline())
 
 queue=[]
 
-for i in range(x):
+for _ in range(x):
     order=sys.stdin.readline().split()
     if order[0]=="push":
         queue.append(order[1])
@@ -11,15 +11,21 @@ for i in range(x):
         if len(queue)==0:
             print(-1)
         else:
-            print(queue.pop())
+            print(queue.pop(0)) #요기
     elif order[0]=="size":
         print(len(queue))
     elif order[0]=="empty":
-        if len(queue)==0:print(1)
-        else:print(0)
+        if len(queue)==0:
+            print(1)
+        else:
+            print(0)
     elif order[0]=="front":
-        if len(queue)==0:print(-1)
-        else: print(queue[0])
+        if len(queue)==0:
+            print(-1)
+        else:
+            print(queue[0])
     elif order[0]=="back":
-        if len(queue)==0:print(-1)
-        else: print(queue[-1])
+        if len(queue)==0:
+            print(-1)
+        else: 
+            print(queue[-1])
