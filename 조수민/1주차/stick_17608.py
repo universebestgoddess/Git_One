@@ -1,4 +1,3 @@
-#week1 stick_17608
 
 import sys
 input = sys.stdin.readline
