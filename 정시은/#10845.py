@@ -14,7 +14,7 @@ for _ in range(a):
         if len(queue) == 0:
             print(-1)
         else:
-            print(queue.pop())
+            print(queue.pop(0))
 
     elif orders == "size":
         print(len(queue))

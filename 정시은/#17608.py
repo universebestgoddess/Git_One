@@ -1,15 +1,16 @@
-import sys
-a= int(sys.stdin.readline())
-stack=[]
+N = int(input())
 
-for _ in range(a):
-    bar= int(input())
+height=[]
+for _ in range(N):
+    height.append(int(input()))
 
-    while stack and stack[-1] <= bar: #stack에 값이 있고 마지막값이 지금 입력받는 것보다 길이가 같거나 짧으면 pop
-        stack.pop()
-    stack.append(bar)
+result = 1  # 보이는 갯수(오른쪽은 무조건 보임)
+max_height = height[-1]
 
-print(len(stack))
+#for i in range(len(height)-1, -1, -1):
+for i in reversed(range(N)):
+    if height[i] > max_height:
+        max_height = height[i]
+        result += 1
 
-
-#시간초과
+print(result)

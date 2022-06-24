@@ -31,7 +31,7 @@ for _ in range(a):
 
     #top
     elif orders == "top":
-        if len(stack)==0: #stack.size() == 0 쓰면 안됨
+        if len(stack) ==0 : #stack.size() == 0 쓰면 안됨
             print(-1)
         else:
             print(stack[-1])
