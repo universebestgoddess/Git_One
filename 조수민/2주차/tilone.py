@@ -11,6 +11,3 @@ while N>1:
         try_num +=1
 
 print(try_num)
-
-
-
