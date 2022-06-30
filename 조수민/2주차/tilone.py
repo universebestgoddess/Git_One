@@ -1,5 +1,4 @@
 N, K = map(int,input().split( ))
-
 try_num = 0
 
 while N>1:
